@@ -1,0 +1,11 @@
+.container-projects {
+  height: 365px;
+  width: 65%;
+  background-color: #665c84; 
+  margin: 0 auto;
+  margin-top: 18px;
+  border-radius: 20px;
+  box-shadow: 7px 6px 13px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 7px 6px 13px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 6px 13px 0px rgba(0,0,0,0.75);
+}

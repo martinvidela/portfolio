@@ -1,0 +1,68 @@
+.container-home {
+  height: 365px;
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 18px;
+  border-radius: 20px;
+  box-shadow: 7px 6px 13px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 7px 6px 13px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 6px 13px 0px rgba(0,0,0,0.75);
+  background: #665c84;
+  /* #665C84 */
+  /*   #A45D5D */
+  /*  #815B5B */
+  /* #800040  */
+  /*   8C1F28 */
+}
+
+.marto {
+  padding: 20px;
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  object-fit: cover;
+  image-rendering: auto;
+}
+
+.header-main {
+  display: flex;
+  color: rgb(234, 234, 234);
+}
+.header-text {
+  padding: 20px;
+}
+.header-text h1 {
+  font-size: 40px;
+}
+.header-text p {
+  font-size: 16px;
+}
+.header-text-pin {
+  font-size: 18px;
+  margin-top: 3px;
+  margin-left: 6px;
+}
+.open-to-work {
+  margin-left: 4px;
+  margin-top: 3px;
+  font-style: italic;
+  color: rgb(255, 238, 0);
+}
+
+.social-media {
+  display: flex;
+  gap: 14px;
+  margin-top: 15px;
+}
+.github {
+  width: 20px;
+  margin-left: 4px;
+}
+.linkedin {
+  width: 20px;
+}
+
+.header-body {
+  color: rgb(234, 234, 234);
+  padding: 20px;
+}

@@ -1,0 +1,17 @@
+.container-skills {
+  color: white;
+  height: 300px;
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 15px;
+  border-radius: 20px;
+  background: #242426f5;
+  margin-bottom: 10px;
+}
+.title {
+  text-align: center;
+  padding: 20px;
+}
+.skills-icons{
+  margin-top: 10px;
+}
