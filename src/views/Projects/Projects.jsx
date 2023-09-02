@@ -28,7 +28,8 @@ export const Projects = () => {
           <p>React - Javascript - CSS</p>
         </div>
         <div className="card-project">
-          <a href="https://martinvidela.github.io/BeGreater-ecommerce/">
+          <a href="https://martinvidela.github.io/BeGreater-ecommerce/"
+          target="_blank">
             <h3>Be Greater</h3>
             <img className="begreater" src={begreater} alt="" />
           </a>
