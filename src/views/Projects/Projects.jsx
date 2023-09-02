@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import Rim from "../../assets/img/rim.png";
+import Rim from "../../assets/img/Rim.png";
 import weatherapp from "../../assets/img/weatherapp.png";
 import begreater from "../../assets/img/begreater.png";
 export const Projects = () => {
