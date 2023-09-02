@@ -15,7 +15,7 @@ export const Home = () => {
         <div className="header-main">
           <img className="marto" src={martosnow} alt="martinvidela" />
           <div className="header-text">
-            <h1>Martin Videla</h1>
+            <h1>Martín Videla</h1>
             <p>⚛️React frontend developer.</p>
             <p className="header-text-pin">
               <FontAwesomeIcon icon={faMapPin} /> Argentina
@@ -35,9 +35,9 @@ export const Home = () => {
         </div>
         <div className="header-body">
           <h2>Sobre mí</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti possimus nihil veritatis.</p>
+          <p>  Soy desarrollador web, vivo en argentina, y me apasiona la programación. Actualmente me enfoco en el Frontend especializandome en React, aplicando Clean Code, Principios Solid y Custom Hooks.  </p>
           <br />
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p>También me gusta jugar en la computadora y Spider-Man🕸️</p>
         </div>
       </div>
       <Skills />

@@ -9,3 +9,28 @@
   -webkit-box-shadow: 7px 6px 13px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 7px 6px 13px 0px rgba(0,0,0,0.75);
 }
+
+
+.cards-container{
+  padding: 20px;
+display: flex;
+gap: 20px;
+text-align: center;
+}
+.weatherapp{
+  width: 330px;
+  height: 160px;
+  image-rendering: auto;
+}
+.rim{
+  width: 300px;
+  image-rendering: auto;
+}
+.card-project h3{
+  color: white;
+  
+}
+.begreater{
+  width: 335px;
+  image-rendering: auto;
+}
