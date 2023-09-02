@@ -34,7 +34,7 @@ export const Home = () => {
           </div>
         </div>
         <div className="header-body">
-          <h2>Sobre mí</h2>
+          <h1>Sobre mí</h1>
           <p>  Soy desarrollador web, vivo en argentina, y me apasiona la programación. Actualmente me enfoco en el Frontend especializandome en React, aplicando Clean Code, Principios Solid y Custom Hooks.  </p>
           <br />
           <p>También me gusta jugar en la computadora y Spider-Man🕸️</p>
