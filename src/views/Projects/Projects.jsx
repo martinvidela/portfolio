@@ -37,7 +37,7 @@ export const Projects = () => {
           <p>React - Redux - Javascript - CSS</p>
         </div>
         <div className="card-project">
-          <a href="https://martinvidela.github.io/React-Gif-App/">
+          <a target="_blank" href="https://martinvidela.github.io/React-Gif-App/">
             <h3>Giphy App</h3>
             <img className="gifApp" src={gifApp} alt="" />
           </a>
