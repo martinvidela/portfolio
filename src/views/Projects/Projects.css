@@ -1,5 +1,5 @@
 .container-projects {
-  height: 365px;
+  height: 500px;
   width: 65%;
   background-color: #665c84; 
   margin: 0 auto;
@@ -17,6 +17,7 @@ display: flex;
 justify-content: space-around;
 gap: 20px;
 text-align: center;
+flex-wrap: wrap;
 }
 .weatherapp{
   width: 330px;
@@ -27,11 +28,16 @@ text-align: center;
   width: 300px;
   image-rendering: auto;
 }
+
 .card-project h3{
   color: white;
-  
+  margin-bottom: 5px;
 }
 .begreater{
+  width: 335px;
+  image-rendering: auto;
+}
+.gifApp{
   width: 335px;
   image-rendering: auto;
 }
