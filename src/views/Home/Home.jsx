@@ -4,8 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import martosnow from "../../assets/img/martosnow.jpeg";
 import { faMapPin } from "@fortawesome/free-solid-svg-icons";
 import { Skills } from "../Skills/Skills";
-import github from "../../assets/img/svg/github.svg";
-import linkedin from "../../assets/img/svg/linkedin.svg";
+import github from "../../assets/svg/github.svg";
+import linkedin from "../../assets/svg/linkedin.svg";
 import { OpenToWork } from "../../Components/OpenToWork";
 
 export const Home = () => {

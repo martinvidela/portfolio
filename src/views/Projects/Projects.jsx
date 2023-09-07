@@ -4,6 +4,8 @@ import Rim from "../../assets/img/Rim.png";
 import weatherapp from "../../assets/img/weatherapp.png";
 import begreater from "../../assets/img/begreater.png";
 import gifApp from '../../assets/img/gifApp.png'
+import romait from '../../assets/img/romait.png'
+
 export const Projects = () => {
   return (
     <div className="container-projects">
@@ -41,7 +43,14 @@ export const Projects = () => {
             <h3>Giphy App</h3>
             <img className="gifApp" src={gifApp} alt="" />
           </a>
-          <p>React - Javascript - Css</p>
+          <p>React - Javascript - CSS</p>
+        </div>
+        <div className="card-project">
+          <a target="_blank" href="https://roma-it.vercel.app/">
+            <h3>ROMA IT</h3>
+            <img className="gifApp" src={romait} alt="" />
+          </a>
+          <p>React - Javascript - CSS - Firebase - Context</p>
         </div>
       </div>
     </div>
