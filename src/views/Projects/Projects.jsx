@@ -43,7 +43,7 @@ export const Projects = () => {
             <h3>Giphy App</h3>
             <img className="gifApp" src={gifApp} alt="" />
           </a>
-          <p>React - Javascript - CSS</p>
+          <p>React - Javascript - CSS - Bootstrap </p>
         </div>
         <div className="card-project">
           <a target="_blank" href="https://roma-it.vercel.app/">
