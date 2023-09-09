@@ -1,43 +1,51 @@
 .container-projects {
   height: 500px;
   width: 65%;
-  background-color: #665c84; 
+  background-color: #665c84;
   margin: 0 auto;
   margin-top: 18px;
   border-radius: 20px;
-  box-shadow: 7px 6px 13px 0px rgba(0,0,0,0.75);
-  -webkit-box-shadow: 7px 6px 13px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 7px 6px 13px 0px rgba(0,0,0,0.75);
+  box-shadow: 7px 6px 13px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 7px 6px 13px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 6px 13px 0px rgba(0, 0, 0, 0.75);
 }
 
-
-.cards-container{
+.cards-container {
   padding: 20px;
-display: flex;
-justify-content: space-around;
-gap: 20px;
-text-align: center;
-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  text-align: center;
+  flex-wrap: wrap;
 }
-.weatherapp{
+.weatherapp {
   width: 330px;
   height: 160px;
   image-rendering: auto;
 }
-.rim{
+.rim {
   width: 300px;
   image-rendering: auto;
 }
 
-.card-project h3{
+.card-project h3 {
   color: white;
   margin-bottom: 5px;
 }
-.begreater{
+.begreater {
   width: 335px;
   image-rendering: auto;
 }
-.gifApp{
+.gifApp {
   width: 335px;
   image-rendering: auto;
+}
+
+@media (max-width: 907px) {
+  .container-projects {
+    height: auto;
+    width: 90%
+  
+  }
+
 }

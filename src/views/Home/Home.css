@@ -4,15 +4,10 @@
   margin: 0 auto;
   margin-top: 18px;
   border-radius: 20px;
-  box-shadow: 7px 6px 13px 0px rgba(0,0,0,0.75);
-  -webkit-box-shadow: 7px 6px 13px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 7px 6px 13px 0px rgba(0,0,0,0.75);
+  box-shadow: 7px 6px 13px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 7px 6px 13px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 6px 13px 0px rgba(0, 0, 0, 0.75);
   background: #665c84;
-  /* #665C84 */
-  /*   #A45D5D */
-  /*  #815B5B */
-  /* #800040  */
-  /*   8C1F28 */
 }
 
 .marto {
@@ -23,13 +18,13 @@
   object-fit: cover;
   image-rendering: auto;
 }
-.cv{
-background-color: rgb(22, 22, 22);
-border: none;
-color: rgb(209, 209, 209);
-padding: 2px;
-border-radius: 2px;
-cursor: pointer;
+.cv {
+  background-color: rgb(22, 22, 22);
+  border: none;
+  color: rgb(209, 209, 209);
+  padding: 2px;
+  border-radius: 2px;
+  cursor: pointer;
 }
 
 .header-main {
@@ -74,7 +69,18 @@ cursor: pointer;
   color: rgb(234, 234, 234);
   padding: 20px;
 }
-.header-body p{
+.header-body p {
   font-size: 16px;
 }
 
+@media (max-width: 907px) {
+  .container-home {
+    width: 90%;
+    max-height: none;
+    overflow: scroll;
+  }
+  .marto {
+    width: 200px;
+    height: 200px;
+  }
+}

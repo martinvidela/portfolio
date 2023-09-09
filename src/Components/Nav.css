@@ -30,3 +30,9 @@
 .housesvg {
   margin: 3px;
 }
+
+@media (max-width: 907px){
+  .container-nav{
+    justify-content: center;
+  }
+  }

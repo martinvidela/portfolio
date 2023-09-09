@@ -12,6 +12,14 @@
   text-align: center;
   padding: 20px;
 }
-.skills-icons{
+.skills-icons {
   margin-top: 10px;
+}
+
+@media (max-width: 907px) {
+  .container-skills {
+    height: auto;
+    width: 90%;
+    padding-bottom: 10px;
+  }
 }
