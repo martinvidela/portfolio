@@ -36,7 +36,7 @@ export const Projects = () => {
             <h3>Be Greater</h3>
             <img className="begreater" src={begreater} alt="" />
           </a>
-          <p>React - Redux - Javascript - CSS</p>
+          <p>React - Redux - Javascript - CSS - Bootstrap - SASS</p>
         </div>
         <div className="card-project">
           <a target="_blank" href="https://martinvidela.github.io/React-Gif-App/">
