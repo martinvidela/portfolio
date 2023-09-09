@@ -22,10 +22,13 @@
   width: 330px;
   height: 160px;
   image-rendering: auto;
+  border-radius: 5px;
 }
 .rim {
   width: 300px;
   image-rendering: auto;
+  border-radius: 5px;
+
 }
 
 .card-project h3 {
@@ -35,10 +38,21 @@
 .begreater {
   width: 335px;
   image-rendering: auto;
+  border-radius: 5px;
+
 }
 .gifApp {
   width: 335px;
   image-rendering: auto;
+  border-radius: 5px;
+
+}
+
+.romaIT{
+  width: 335px;
+  image-rendering: auto;
+  border-radius: 5px;
+
 }
 
 @media (max-width: 907px) {

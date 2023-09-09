@@ -48,7 +48,7 @@ export const Projects = () => {
         <div className="card-project">
           <a target="_blank" href="https://roma-it.vercel.app/">
             <h3>ROMA IT</h3>
-            <img className="gifApp" src={romait} alt="" />
+            <img className="romaIT" src={romait} alt="" />
           </a>
           <p>React - Javascript - CSS - Firebase - Context</p>
         </div>
