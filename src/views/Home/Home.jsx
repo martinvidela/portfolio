@@ -40,7 +40,7 @@ export const Home = () => {
           <h1>Sobre mí</h1>
           <p>  Soy desarrollador web, vivo en argentina, y me apasiona la programación. Actualmente me enfoco en el Frontend especializandome en React, aplicando Clean Code, Principios Solid y Custom Hooks.  </p>
           <br />
-          <p>También me gusta jugar en la computadora y Spider-Man🕸️</p>
+          <p>También me gusta jugar en la computadora, los autos 🏎️ y Spider-Man 🕸️</p>
         </div>
       </div>
       <Skills />
