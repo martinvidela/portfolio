@@ -3,7 +3,6 @@
 </div>
 
 <p> Hi! My name's Martin, i'm 21yo programmer from Argentina. I enjoy exploring new technologies and I'm always trying to improve myself and my career. </p>
-<p> I am fullstack but I prefer frontend.</p>
 
 <h2 align='center' >My skills :hocho:</h2>
 
