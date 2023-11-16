@@ -30,8 +30,8 @@ export const Home = () => {
                 target="_blank">
                 <img className="linkedin" src={linkedin} alt="linkedin" />
               </a>
-              <a target="_blank" href="https://drive.google.com/file/d/1M3DIDirhxXbFY-geAr7yS-Z9SUbS6tYp/view?usp=sharing">
-                <button className="cv">CV</button>
+              <a target="_blank" href="https://drive.google.com/file/d/1T4ybT5QiannU24AlXmCdJAb2_bgFZ7C6/view?usp=sharing">
+                <button className="cv">Curriculum Vitae</button>
               </a>
             </div>
           </div>
