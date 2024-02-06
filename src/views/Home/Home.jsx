@@ -7,10 +7,11 @@ import { Skills } from "../Skills/Skills";
 import github from "../../assets/svg/github.svg";
 import linkedin from "../../assets/svg/linkedin.svg";
 import { OpenToWork } from "../../Components/OpenToWork";
+import { Experience } from "../Experience/Experience";
 
 export const Home = () => {
   return (
-    <div>
+    <div style={{padding:"5px"}}>
       <div className="container-home">
         <div className="header-main">
           <img className="marto" src={martosnow} alt="martinvidela" />
@@ -20,29 +21,42 @@ export const Home = () => {
             <p className="header-text-pin">
               <FontAwesomeIcon icon={faMapPin} /> Argentina
             </p>
-            <OpenToWork/>
+            <OpenToWork />
             <div className="social-media">
               <a href="https://github.com/martinvidela" target="_blank">
                 <img className="github" src={github} alt="github" />
               </a>
               <a
                 href="https://www.linkedin.com/in/martin-videla-frontdev/"
-                target="_blank">
+                target="_blank"
+              >
                 <img className="linkedin" src={linkedin} alt="linkedin" />
               </a>
-              <a target="_blank" href="https://drive.google.com/file/d/1T4ybT5QiannU24AlXmCdJAb2_bgFZ7C6/view?usp=sharing">
-                <button className="cv">Curriculum Vitae</button>
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1T4ybT5QiannU24AlXmCdJAb2_bgFZ7C6/view?usp=sharing"
+              >
+                <button className="cv">Resume</button>
               </a>
             </div>
           </div>
         </div>
         <div className="header-body">
           <h1>Sobre mí</h1>
-          <p>  Soy desarrollador web, vivo en argentina, y me apasiona la programación. Actualmente me enfoco en el Frontend especializandome en React, aplicando Clean Code, Principios Solid y Custom Hooks.  </p>
+          <p>
+            {" "}
+            Soy desarrollador web, vivo en Argentina, y me apasiona la
+            programación. Actualmente me enfoco en el Frontend especializandome
+            en React, aplicando Clean Code, Principios Solid y Custom Hooks.{" "}
+          </p>
           <br />
-          <p>También me gusta jugar en la computadora, los autos 🏎️ y Spider-Man 🕸️</p>
+          <p>
+            También me gusta jugar en la computadora, los autos 🏎️ y Spider-Man
+            🕸️
+          </p>
         </div>
       </div>
+      <Experience />
       <Skills />
     </div>
   );

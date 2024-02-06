@@ -19,12 +19,17 @@
   image-rendering: auto;
 }
 .cv {
-  background-color: rgb(22, 22, 22);
+  background-color: rgb(31, 31, 31);
   border: none;
-  color: rgb(209, 209, 209);
-  padding: 4px 5px;
+  color: #a496d3;
+  padding: 6px;
   border-radius: 3px;
   cursor: pointer;
+}
+.cv:hover{
+  background-color: #a496d3;
+  color: white;
+  transition: 0.1s;
 }
 
 .header-main {
@@ -54,15 +59,17 @@
 
 .social-media {
   display: flex;
+  align-items: center;
   gap: 14px;
   margin-top: 15px;
 }
 .github {
-  width: 20px;
+  width: 25px;
   margin-left: 4px;
 }
 .linkedin {
-  width: 20px;
+  width: 25px;
+  margin-top: 1px;
 }
 
 .header-body {

@@ -3,7 +3,7 @@ import "./Skills.css";
 export const Skills = () => {
   return (
     <div id="skills" className="container-skills">
-      <h1 className="title">My skills</h1>
+      <h1 className="title">Habilidades</h1>
       <h2 align='center'>Frontend</h2>
       <div className="skills-icons">
         <p align="center">
