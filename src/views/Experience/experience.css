@@ -7,16 +7,23 @@
   box-shadow: 7px 6px 13px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 7px 6px 13px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 7px 6px 13px 0px rgba(0, 0, 0, 0.75);
-  background: #665c84;
+  background: #665c84e8;
 }
 .title-experience {
   text-align: center;
   padding-top: 15px;
   color: rgb(234, 234, 234);
 }
-.subtitle-experience {
+.subtitle-container {
+  display: flex;
   color: rgb(234, 234, 234);
   margin-left: 20px;
+  margin-top: 15px;
+  gap: 10px;
+}
+.ultracore {
+  color: rgb(255, 238, 0);
+  font-weight: lighter;
 }
 .list-experience {
   color: rgb(234, 234, 234);
