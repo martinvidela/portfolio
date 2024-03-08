@@ -1,0 +1,29 @@
+{
+  "navBar": {
+    "me": "Yo",
+    "skills": "Habilidades",
+    "projects": "Proyectos"
+  },
+  "header": {
+    "title": "Sobre Mí",
+    "aboutMe": "Desarrollador front end con un año de experiencia. Me especializo en el desarrollo de sitios web y trabajo con React, Javascript y Redux para brindar al cliente una experiencia única, usando funcionalidades para optimizar la estructura del código. Me destaco por colaborar y trabajar en equipo, encontrar soluciones y asegurarme de que los clientes estén satisfechos.",
+    "aboutMe2": "En mi tiempo libre, disfruto jugando videojuegos 🎮, viendo Fórmula 1 🚗 y siguiendo las aventuras de Spiderman 🕸️."
+  },
+  "workExperience": {
+    "title": "Experiencia Laboral",
+    "1stExperience": {
+      "present": "Presente",
+      "1st": "Desarollo de sitios web utlizando React | React Native | Redux | Custom Hooks | Tailwind CSS | WordPress | NextJS ",
+      "2nd": "Dentro de las mismas me encargo de la estética y arquitectura, y de refactorizar con el fin de mejorar la funcionalidad de los sitios.",
+      "3rd": "Trabajamos con metodología Scrum."
+    },
+    "2ndExperience": {
+      "1st": "Desarollador de 2 SPA utilizando React | Tailwind CSS | Astro",
+      "2nd": "Implemente las conexiones al Backend utilizando Axios para conectarme a la  base de datos.",
+      "3rd": "Trabajamos con metodología Scrum."
+    }
+  },
+  "skills": {
+    "title": "Habilidades"
+  }
+}

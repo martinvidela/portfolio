@@ -1,5 +1,6 @@
 .container-nav {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   width: 65%;
   background: #665c84e8;
@@ -19,20 +20,31 @@
   align-items: center;
   transition: 0.3s;
   color: white;
-
 }
-.controls:hover{
+.controls:hover {
   color: rgb(255, 238, 0);
 }
-
-
 
 .housesvg {
   margin: 3px;
 }
 
-@media (max-width: 907px){
-  .container-nav{
+@media (max-width: 907px) {
+  .container-nav {
     justify-content: center;
   }
-  }
+}
+
+.container-flags img {
+  width: 40px;
+  image-rendering: auto;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.container-flags {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}

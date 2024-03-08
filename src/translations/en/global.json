@@ -1,0 +1,29 @@
+{
+  "navBar": {
+    "me": "Me",
+    "skills": "Skills",
+    "projects": "Projects"
+  },
+  "header": {
+    "title": "About Me",
+    "aboutMe": "Developer with one year of experience developing websites, implementing functions to optimize code structure, and working with React, Javascript and Redux to deliver exceptional customer experiences. Adept at contributing to a highly collaborative work environment, finding solutions, and determining customer satisfaction.",
+    "aboutMe2": "In my spare time, I enjoy playing video-games 🎮, watching formula 1 🏎️, and following Spiderman's adventures 🕸️."
+  },
+  "workExperience": {
+    "title": "Work Experience",
+    "1stExperience": {
+      "present": "Present",
+      "1st": "Website development using React | Redux | Custom Hooks | Tailwind CSS | Clean Architecture | Wordpress",
+      "2nd": "Responsible for the design and architecture of the websites and also in charge of refactoring them to improve their functionality.",
+      "3rd": "Used Scrum methodology to effectively manage and deliver projects within a team."
+    },
+    "2ndExperience": {
+      "1st": "Worked with React | TailwindCSS to develop a SPA (single-page application)",
+      "2nd": "Utilized Axios to connect to the database and to integrate Front and Back end.",
+      "3rd": "Used Scrum methodology to effectively manage and deliver projects within a team. "
+    }
+  },
+  "skills": {
+    "title": "Skills"
+  }
+}

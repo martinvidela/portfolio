@@ -8,10 +8,13 @@ import github from "../../assets/svg/github.svg";
 import linkedin from "../../assets/svg/linkedin.svg";
 import { OpenToWork } from "../../Components/OpenToWork";
 import { Experience } from "../Experience/Experience";
+import { useTranslation } from "react-i18next";
 
 export const Home = () => {
+  const [t, i18n] = useTranslation("global");
+
   return (
-    <div style={{padding:"5px"}}>
+    <div style={{ padding: "5px" }}>
       <div className="container-home">
         <div className="header-main">
           <img className="marto" src={martosnow} alt="martinvidela" />
@@ -42,17 +45,11 @@ export const Home = () => {
           </div>
         </div>
         <div className="header-body">
-          <h1>Sobre mí</h1>
-          <p>
-            {" "}
-            Soy desarrollador web, vivo en Argentina, y me apasiona la
-            programación. Actualmente me enfoco en el Frontend especializandome
-            en React, aplicando Clean Code, Principios Solid y Custom Hooks.{" "}
-          </p>
+          <h1>{t("header.title")}</h1>
+          <p>{t("header.aboutMe")}</p>
           <br />
           <p>
-            También me gusta jugar en la computadora, los autos 🏎️ y Spider-Man
-            🕸️
+           {t("header.aboutMe2")}
           </p>
         </div>
       </div>

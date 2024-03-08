@@ -1,9 +1,12 @@
 import "./Skills.css";
+import { useTranslation } from "react-i18next";
+
 
 export const Skills = () => {
+  const [t, i18n] = useTranslation("global");
   return (
     <div id="skills" className="container-skills">
-      <h1 className="title">Habilidades</h1>
+      <h1 className="title">{t("skills.title")}</h1>
       <h2 align='center'>Frontend</h2>
       <div className="skills-icons">
         <p align="center">
