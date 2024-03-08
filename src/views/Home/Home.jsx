@@ -48,9 +48,9 @@ export const Home = () => {
           <h1>{t("header.title")}</h1>
           <p>{t("header.aboutMe")}</p>
           <br />
-          <p>
-           {t("header.aboutMe2")}
-          </p>
+          <div className="scrollable-content">
+            <p>{t("header.aboutMe2")}</p>
+          </div>
         </div>
       </div>
       <Experience />

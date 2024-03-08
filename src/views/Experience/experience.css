@@ -30,7 +30,14 @@
   margin-top: 10px;
   margin-left: 30px;
 }
-@media (max-width: 907px) {
+@media (max-width: 1366px) {
+  .container-experience {
+    width: 65%;
+    max-height: none;
+    overflow: scroll;
+  }
+}
+@media (max-width: 720px) {
   .container-experience {
     width: 90%;
     max-height: none;

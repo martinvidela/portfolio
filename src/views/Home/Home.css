@@ -1,5 +1,6 @@
 .container-home {
-  height: 400px;
+  height: auto;
+  max-height: 400px; /* Establece una altura máxima */
   width: 65%;
   margin: 0 auto;
   margin-top: 18px;
@@ -9,7 +10,33 @@
   -moz-box-shadow: 7px 6px 13px 0px rgba(0, 0, 0, 0.75);
   background: #665c84ef;
 }
+@media (max-width: 1366px) {
+  .container-home {
+    width: 65%;
+    max-height: none;
+    overflow-y: scroll;
+  }
+  .marto {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (max-width: 720px) {
+  .container-home {
+    width: 90%;
+    max-height: none;
+    overflow-y: scroll;
+  }
+  .marto {
+    width: 200px;
+    height: 200px;
+  }
+}
 
+.scrollable-content {
+  max-height: 200px; /* Establece una altura máxima para el contenido que se puede desbordar */
+  overflow-y: auto; /* Añade scroll vertical si es necesario */
+}
 .marto {
   padding: 20px;
   width: 175px;
@@ -80,14 +107,3 @@
   font-size: 16px;
 }
 
-@media (max-width: 907px) {
-  .container-home {
-    width: 90%;
-    max-height: none;
-    overflow: scroll;
-  }
-  .marto {
-    width: 200px;
-    height: 200px;
-  }
-}

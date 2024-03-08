@@ -15,7 +15,18 @@
   margin-top: 10px;
 }
 
-@media (max-width: 907px) {
+@media (max-width: 1366px) {
+  .container-skills {
+    height: auto;
+    width: 65%;
+    padding-bottom: 15px;
+  }
+  .skills-icons {
+    padding: 2px;
+  }
+}
+
+@media (max-width: 720px) {
   .container-skills {
     height: auto;
     width: 90%;
